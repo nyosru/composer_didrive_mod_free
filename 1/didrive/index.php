@@ -3,7 +3,7 @@
 
 
 
-
+if( 1 == 2 ){
 
 //        $s = $db->prepare('SELECT sql FROM `sqlite_master` WHERE `name` = :table LIMIT 1 ');
 //        $s->execute( array( ':table' => $table ) );
@@ -123,7 +123,7 @@ elseif (isset($_REQUEST['save_id']) && is_numeric($_REQUEST['save_id']) && isset
 elseif( isset($_GET['refresh_cash']) && $_GET['refresh_cash'] == 'da' ){
     \Nyos\mod\items::clearCash($vv['folder']);
 }
-
+}
 
 
 
@@ -132,7 +132,7 @@ $vv['krohi'][1] = array(
     'text' => $vv['now_level']['name'],
     'uri' => '/i.didrive.php?level='.$vv['now_level']['cfg.level']
 );
-$vv['list'] = \Nyos\mod\items::getItems( $db, $vv['folder'], $vv['now_level']['cfg.level'], null);
+// $vv['list'] = \Nyos\mod\items::getItems( $db, $vv['folder'], $vv['now_level']['cfg.level'], null);
 
 //\f\pa($vv['list']);
 
