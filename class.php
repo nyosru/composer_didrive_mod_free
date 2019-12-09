@@ -3,7 +3,7 @@
 /**
 класс модуля
 **/
-//
+
 //namespace Nyos\mod;
 //
 //if (!defined('IN_NYOS_PROJECT'))
