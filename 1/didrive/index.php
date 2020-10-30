@@ -1,7 +1,5 @@
 <?php
 
-// echo '</br>'.__FILE__.' #'.__LINE__;
-
 $vv['krohi'] = [];
 $vv['krohi'][1] = array(
     'text' => $vv['now_level']['name'],

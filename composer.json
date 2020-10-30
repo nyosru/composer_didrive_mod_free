@@ -2,7 +2,6 @@
     "name": "didrive_mod/free",
     "description": "модуль для запуска шаблонов с сайта",
     "version": "0.1.0",
-    
     "keywords": [
         "didrive", "module", "nyos", "uralweb.info"
     ],
@@ -14,7 +13,6 @@
             "role": "Developer"
         }
     ],
-    
     "homepage": "https://uralweb.info/php/#classes",
     "license": "MIT",
     "require": {
@@ -22,5 +20,4 @@
         ,
         "twig/twig": ">=2.10.0"
     }
-    
 }
